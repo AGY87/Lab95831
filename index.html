@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel ="stylesheet" href = "style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class = "container " >
+        <div class = "card">
+                <img src = "310.png" class = "rounded-circle mx-auto d-block"  alt = "Cinque Terre" width = "250" height="250">
+                <p></p>
+                <h1 class ="text-center">Nattaphong Sompruek</h1>
+                <p></p>
+                <p></p>
+                <h3 class = "text-center text-uppercase">Education</h3>
+                <p class = "text-center">College of Arts Media and Tecnology</p>
+                <h6 class = "text-center">Digital Game</h6>
+                <p></p>
+                <h3 class = "text-center text-uppercase">Skills</h3>
+                <p></p>
+                <p class = "text-center">Devloper skills :</p>
+                <div class = "text-center">
+                    <span class="badge bg-primary">Unity</span>
+                    <span class="badge bg-primary">Unreal Engine</span>
+                    <span class="badge bg-primary">C#</span>
+                    <span class="badge bg-primary">HTML</span>
+                    <span class="badge bg-primary">JavaScript</span>
+                    <span class="badge bg-primary">CSS</span>
+                </div>
+                <p></p>
+                <p class = "text-center">Artist skills :</p>
+                <div class = "text-center">
+                    <span class="badge bg-primary">PixelArt</span>
+                    <span class="badge bg-primary">3D Blender</span>
+                </div>
+                <p></p>
+                <p></p>
+                <div class = "text-center">
+                    <button id = "contactBtn" type="button" class="btn btn-primary">View Contact</button> 
+                </div>
+
+                <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                const btn = document.getElementById("contactBtn");
+
+                btn.addEventListener("click", function() {
+                    
+                    alert("Contact info : Dezydraw@gmail.com");
+                    
+                    // const link = document.createElement("a");
+                    // link.href = "310.png"; // Change to your file path
+                    // link.download = "profile-picture.png"; // New filename
+                    // link.click();
+                });
+                });
+                </script>          
+        </div>
+
+
+    <script src = "script.js"></script>
+</body>
+</html>

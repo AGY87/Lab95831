@@ -1,0 +1,10 @@
+.card
+{
+    max-width: 500px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.custom-font{
+    font-family:'Prompt';
+}
